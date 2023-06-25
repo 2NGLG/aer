@@ -1,0 +1,63 @@
+{
+    "template_delivery_id": 0,
+    "warehouse": {
+      "address_id": 0,
+      "name": "string",
+      "postcode": "string",
+      "phone": "string",
+      "email": "string",
+      "country_code": "string",
+      "provider_id": 0,
+      "province_code": "string",
+      "city_code": "string",
+      "street_address": "string",
+      "is_default": true,
+      "contact": "string",
+      "type": "string",
+      "work_schedule": {
+        "regular_schedule": [
+          {
+            "days": [
+              "string"
+            ],
+            "intervals": [
+              {
+                "start": "string",
+                "end": "string"
+              }
+            ]
+          }
+        ],
+        "exceptions_schedule": [
+          {
+            "dates": [
+              "2023-05-10T09:11:24.904Z"
+            ],
+            "intervals": [
+              {
+                "start": "string",
+                "end": "string"
+              }
+            ],
+            "ranges": [
+              "string"
+            ]
+          }
+        ]
+      },
+      "entry_comment": "string",
+      "sla_hours": 9,
+      "admission_instructions": {
+        "require_pass": true,
+        "admission_process": "string",
+        "partially_loaded_vehicle_allowed": true,
+        "required_data": "string",
+        "additional_conditions": "string"
+      },
+      "dropoff_location_code": "string",
+      "first_mile_option": "string",
+      "drop_off_point_id": 0,
+      "is_oversize": true
+    }
+  }
+  
