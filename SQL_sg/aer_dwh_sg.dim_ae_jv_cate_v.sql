@@ -1,0 +1,20 @@
+SELECT
+  cate_id,
+  cate_desc,
+  cate_level,
+  is_leaf,
+  cate_lv1_id,
+  cate_lv1_desc,
+  cate_lv2_id,
+  cate_lv2_desc,
+  cate_lv3_id,
+  cate_lv3_desc,
+  cate_lv4_id,
+  cate_lv4_desc,
+  cate_lv5_id,
+  cate_lv5_desc,
+  parent_cate_id,
+  parent_cate_desc,
+  cate_type,
+  ds
+ FROM aer_dwh_sg.dim_ae_jv_cate_v
