@@ -13,7 +13,7 @@ data_list = []
 
 # Iterate over the item IDs in the Excel file
 for item_id in df['item_id']:
-    url = "http://dbg-sc-product-api.prod1.k8s.ae-rus.net/v1/products/get-by-id"
+    url = "link_to_api" # input here link to api
     headers = {
         "accept": "application/json",
         "Content-Type": "application/json"
