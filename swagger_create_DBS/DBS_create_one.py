@@ -4,7 +4,7 @@
 import json
 import requests
 
-url_swagger = "http://logistics-sx-web-onboarding.prod1.k8s.ae-rus.net/api/v1/onboarding/create-dbs-template"
+url_swagger = "link_to_api" # input here link to api
 header = {
     "accept": "application/json",
     "x-aer-seller-info": '{"user_id": 4126555948, "seller_id":4126555948, "parent_seller_id":4126555948,"havana_id":0,"session_id":"","intl_locale":"ru_RU","ip":""}',
