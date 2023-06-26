@@ -3,7 +3,7 @@
 import requests
 import json
 
-url = "http://dbg-sc-product-api.prod1.k8s.ae-rus.net/v1/product/change-shipment-template-by-full-edit"
+url = "link_to_api" # input here link to api
 
 headers = {
     "accept": "application/json",
