@@ -5,7 +5,7 @@
 import json
 import requests
 
-url_swagger = "http://logistics-sx-web-onboarding.prod1.k8s.ae-rus.net/api/v1/onboarding/create-template-delivery"
+url_swagger = "link_to_api" # input here link to api
 
 # check seller_id in header
 header = {
