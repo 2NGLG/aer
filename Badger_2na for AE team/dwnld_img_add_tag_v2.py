@@ -79,7 +79,7 @@ for seller_seq in seller_seqs:
 
         for item_id in item_ids:
             print(item_id)
-            url = "http://dbg-sc-product-api.prod1.k8s.ae-rus.net/v1/products/get-by-id"
+            url = "link_to_api" # input here link to api
             headers = {
                 "accept": "application/json",
                 "Content-Type": "application/json"
