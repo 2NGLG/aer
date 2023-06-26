@@ -13,7 +13,7 @@ seller_ids = df['seller_seq'].tolist()
 # Create an empty list to store the results
 results = []
 
-url = "http://dbg-sc-product-api.prod1.k8s.ae-rus.net/v1/scroll-short-product-by-filter"
+url = "link_to_api" # input here link to api
 headers = {
     "accept": "application/json",
     "Content-Type": "application/json"
